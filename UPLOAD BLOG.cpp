@@ -6,28 +6,28 @@ int options;
 
 int main() {
     while (true) {
-        cout << "what u want" << endl;
+        cout << "What u want" << endl;
         cout << "1)Upload a blog" << endl;
         cout << "2)View blogs" << endl;
         cout << "3)Exit"<<endl;
         cout << "3)Ur option?";
         cin >> options;
-        cin.ignore();
+        
         if (options == 1) {
-            cout << "enter blog title";
+            cout << "Enter blog title:";
             cin.ignore();
             getline(cin, title);
             
-            cout << "\nenter blog content";
+            cout << "\nEnter blog content:";
             getline(cin, content);
         }
         else if (options == 2) {
 
-            cout << "Title of blog" << title << endl;
+            cout << "Title of blog:" << title << endl;
             cout << "Content      :" << content << endl;
         }
         else if (options == 3) {
-            cout << "Exiting program..." << endl;
+            cout << "Exiting program" << endl;
             break;
         }
         else {
