@@ -29,11 +29,11 @@ git checkout userName_Title_ver0
 ```
 
 ## Main Contributor of this Project
-| Name  | ID |
+| Name          |       ID      |
 | ------------- | ------------- |
-|  Tan Boon Kai | 242UT24425 |
-| Loh Tian Rong  | 242UT2443W |
-| Mahendra Varma A/L Vijayam  | 242UT2443U |
-| Sin Kai Xing  | 242UT2443V |
-| Chua Yong Bing  | 242IT2443Z |
-| Lim Swee Ming  | 243UT246XP |
+| Tan Boon Kai  | 242UT24425    |
+| Loh Tian Rong | 242UT2443W    |
+| Mahendra Varma| 242UT2443U    |
+| Sin Kai Xing  | 242UT2443V    |
+| Chua Yong Bing| 242IT2443Z    |
+| Lim Swee Ming | 243UT246XP    |
