@@ -19,12 +19,12 @@ int askQuestion(string question, char correctAnswer) {
 }
 
 int main() {
-    int score = 0;
+    int score = 0; // initialize Quiz num
 
     cout << "Welcome to the Smart Living Quiz! \n";
     cout << "Answer each question by typing A, B, C, or D.\n\n";
 
-    score += askQuestion(
+    score += askQuestion( // repeated 20 Quiz function call by passing in question's string and answer's string as argument)
         "1. What is a smart city?\n"
         "A) A city with free Wi-Fi\n"
         "B) A city using technology for efficiency and sustainability\n"
@@ -207,8 +207,8 @@ int main() {
     cout << " Quiz Completed! \n";
     cout << "Your final score: " << score << " out of 20.\n";
 
-    if (score >= 16) {
-        cout << " Excellent! You're a Smart Living Expert!\n";
+    if (score >= 16) {  // logical statement for scoring, if more or equal to 16 then statement 1, else if more or equal to 10 then statement 2, else statement 3.
+        cout << " Excellent! You're a Smart Living Expert!\n"; 
     }
     else if (score >= 10) {
         cout << "Good job! Keep learning about sustainability.\n";
@@ -217,6 +217,6 @@ int main() {
         cout << "Keep going! A greener future starts with awareness.\n";
     }
 
-    return 0;
+    return 0; // halt here
 }
 
