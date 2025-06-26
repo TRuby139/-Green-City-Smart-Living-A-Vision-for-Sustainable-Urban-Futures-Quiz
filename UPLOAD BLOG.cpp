@@ -18,7 +18,7 @@ int main() {
             cin.ignore();
             getline(cin, title);
             
-            cout << "\nEnter blog content:";
+            cout << "Enter blog content:";
             getline(cin, content);
         }
         else if (options == 2) {
